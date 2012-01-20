@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+h1 {
+	position: relative;
+	float: left;
+	left: 33%;
+	font-size: 250%;
+}
+
+#buttons {
+	position: relative;
+	float: right;
+	right: 1%;
+}
+
+#myOrgButton {
+	position: relative;
+	float: left;
+}
+
+#logoutButton {
+	position: relative;
+	float: right;
+}
+
+hr {
+	clear: both;
+}

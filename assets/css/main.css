@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+ul {
+	list-style-type:none;
+	padding-left:0;
+}
+
+#left {
+	position:absolute;
+	left:0;
+	width:65%;
+	height:100%;
+	border:solid;
+	border-width:1.5px;
+}
+
+#hiddenInput {
+	visibility:hidden;
+}
+
+#error {
+	font-size:30px;
+	color:red;
+}
+
+#right { 
+	position:absolute;
+	width:34.7%;
+	right:0;
+	top:0;
+	bottom:0;
+}
+
+#input {
+	position:absolute;
+	left:0;
+	width:100%;
+	height:55px;
+	overflow:hidden;
+	bottom:0;
+}
+
+#playersTable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+#playersTable th {
+	background:#b5cfd2;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+#playersTable td {
+	background:#dcddc0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+#playersDiv {
+	font-size:20px;
+}
+
+#message {
+	font-size:17px;
+	border:solid;
+	border-width:1.5px;
+	width:100%;
+	font-family:'Verdana';
+}
+
+#singleLeft {
+	position:absolute;
+	bottom:0;
+	top:11.5%;
+	width:99%;
+	padding-left:10px;
+	font-size:20px;
+	overflow:auto;
+}
+
+#singleLeftFind {
+	position:absolute;
+	bottom:0;
+	top:11.5%;
+	width:99%;
+	padding-left:20px;
+	font-size:25px;
+	overflow:auto;
+}
+
+#send {
+	visibility:hidden;
+}
+
+#menu {
+	position:relative;
+	top:0;
+	height:8%;
+	border-bottom:solid;
+	border-width:1px;
+}
+
+#logo {
+	position:absolute;
+	top:0;
+	height:30%;
+}
+
+#fract {
+	position:absolute;
+	top:35%;
+	padding-left:7%;
+	font-size:35px;
+}
+
+#radio {
+	position:absolute;
+	bottom:20px;
+	font-size:20px;
+}
+
+#logoImg {
+	width:150px;
+	height:150px;
+}
+
+#left_left {
+	padding-left:2%;
+	position:absolute;
+	overflow:auto;
+	bottom:70px;
+	top:66px;
+	left:0;
+	width:28%;
+}
+
+#left_right {
+	position:absolute;
+	bottom:70px;
+	top:66px;
+	right:0;
+	width:70%;
+	overflow:auto;
+	padding-left:10px;
+}
+
+#chat {
+	position:absolute;
+	bottom:0;
+	left:20px;
+	right:25px;
+	font-size:17px;
+	top:25%;
+	border:solid;
+	padding-left:3px;
+	border-width:1px;
+	overflow:auto;
+}
+
+li {
+	display:inline;
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+#comboBox {
+	position:relative;
+	padding-left:27%;
+	margin-bottom:30%;
+}
+
+select {
+	font-size:20px;
+}
+
+#main {
+	position:absolute;
+	padding-left:10px;
+	width:100%;
+	height:80%;
+	margin-bottom:10%;
+}
